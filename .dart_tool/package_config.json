@@ -92,6 +92,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "intl_phone_field",
+      "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/intl_phone_field-3.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "leak_tracker",
       "rootUri": "file:///Users/mac/.pub-cache/hosted/pub.dev/leak_tracker-10.0.7",
       "packageUri": "lib/",
@@ -212,7 +218,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-01-06T07:22:28.598651Z",
+  "generated": "2025-01-06T08:09:50.308477Z",
   "generator": "pub",
   "generatorVersion": "3.6.0",
   "flutterRoot": "file:///Users/mac/Desktop/Marwanhoo/flutter3.27",
