@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_app/home_screen.dart';
+import 'package:flutter_chat_app/chat_screen.dart';
 import 'package:flutter_chat_app/register_screen.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -121,8 +121,9 @@ class LoginScreen extends StatelessWidget {
                         // Show success message
                         if (context.mounted) {
                           Navigator.of(context).pushAndRemoveUntil(
-                            MaterialPageRoute(builder: (_) => HomeScreen()),
-                                (Route<dynamic> route) => false, // Remove all routes
+                            MaterialPageRoute(builder: (_) => ChatScreen()),
+                            (Route<dynamic> route) =>
+                                false, // Remove all routes
                           );
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
