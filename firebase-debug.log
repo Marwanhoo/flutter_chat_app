@@ -1,0 +1,24 @@
+[debug] [2025-01-06T07:32:54.220Z] ----------------------------------------------------------------------
+[debug] [2025-01-06T07:32:54.222Z] Command:       /usr/local/bin/firebase /Users/mac/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase apps:create ios flutter_chat_app (ios) --bundle-id=com.flutter_chat_app --json --project=flutter-chat-app-e0f99
+[debug] [2025-01-06T07:32:54.222Z] CLI Version:   13.27.0
+[debug] [2025-01-06T07:32:54.222Z] Platform:      darwin
+[debug] [2025-01-06T07:32:54.222Z] Node Version:  v18.5.0
+[debug] [2025-01-06T07:32:54.223Z] Time:          Mon Jan 06 2025 09:32:54 GMT+0200 (Eastern European Standard Time)
+[debug] [2025-01-06T07:32:54.224Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-06T07:32:54.230Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-06T07:32:54.230Z] > authorizing via signed-in user (engmarwan12345@gmail.com)
+[info] Create your IOS app in project flutter-chat-app-e0f99:
+[debug] [2025-01-06T07:32:54.234Z] Checked if tokens are valid: true, expires at: 1736150758965
+[debug] [2025-01-06T07:32:54.234Z] Checked if tokens are valid: true, expires at: 1736150758965
+[debug] [2025-01-06T07:32:54.235Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/flutter-chat-app-e0f99/iosApps [none]
+[debug] [2025-01-06T07:32:54.236Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/flutter-chat-app-e0f99/iosApps {"displayName":"flutter_chat_app (ios)","bundleId":"com.flutter_chat_app"}
+[debug] [2025-01-06T07:32:54.624Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/flutter-chat-app-e0f99/iosApps 400
+[debug] [2025-01-06T07:32:54.625Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/flutter-chat-app-e0f99/iosApps {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT"}}
+[debug] [2025-01-06T07:32:54.625Z] Request to https://firebase.googleapis.com/v1beta1/projects/flutter-chat-app-e0f99/iosApps had HTTP Error: 400, Request contains an invalid argument.
+[debug] [2025-01-06T07:32:54.860Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/flutter-chat-app-e0f99/iosApps had HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (/Users/mac/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/Users/mac/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create iOS app for project flutter-chat-app-e0f99. See firebase-debug.log for more info.

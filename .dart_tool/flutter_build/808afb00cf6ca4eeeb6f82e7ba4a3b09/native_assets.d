@@ -1,0 +1,1 @@
+ /Users/mac/Desktop/Marwanhoo/AndroidStudioProjects/flutter_chat_app/.dart_tool/flutter_build/808afb00cf6ca4eeeb6f82e7ba4a3b09/native_assets.yaml: 
